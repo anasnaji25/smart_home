@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:smart_home/Constants/fonts.dart';
 import 'package:smart_home/Widgets/categorys_card.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 
 class AllRoomsCategory extends StatelessWidget {
@@ -10,7 +11,8 @@ class AllRoomsCategory extends StatelessWidget {
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Container(
-      width: size.width ,
+      width: 392.w,
+      height: 834.h,
                  decoration: BoxDecoration(
                    color: Color.fromRGBO(239,246,250,5),
                      borderRadius: BorderRadius.only(

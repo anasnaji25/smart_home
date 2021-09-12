@@ -10,6 +10,7 @@ class CategorysCards extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+ 
     return GridView.builder(
       shrinkWrap: true,
       itemCount: category_items.length,
@@ -45,7 +46,7 @@ class CategorysCards extends StatelessWidget {
                      blurRadius: 5.0,
                  )
                ],
-                   borderRadius: BorderRadius.circular(30), ),
+                   borderRadius: BorderRadius.circular(22), ),
                child: Column(
                  crossAxisAlignment: CrossAxisAlignment.start,
                  children: [
